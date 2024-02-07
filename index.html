@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="script.js">
+      <link rel="stylesheet" href="submit.php">
+       <link rel="stylesheet" href="node.js">
+       <link rel="stylesheet" href="process.php">
+       <link rel="stylesheet" href="newsletter_signup.php">
+       <link rel="stylesheet" href="email.sql">
+       <link rel="stylesheet" href="server.js">
+        <link rel="stylesheet" href="app.js">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>www.thesstaxidi gr</title>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Νέα</a>
+        <div class="dropdown">
+            <button class="dropbtn">SocialMedia</button>
+            <div class="dropdown-content">
+                <a href="#SocialMedia1" onclick="window.location.href='https://bit.ly/3Vmzx07';">Facebook</a>
+                <a href="#SocialMedia2" onclick="window.location.href='https://bit.ly/3B0plCt';">Instagram</a>
+                <a href="#SocialMedia3" onclick="window.location.href='https://bit.ly/3H6lDep';">Twitter</a>
+                <a href="#SocialMedia4" onclick="window.location.href='https://bit.ly/3VD0wVv';">TikTok</a>
+            </div>
+        </div>
+    <img src="channels4_profile.jpg" alt="" style="float: right;" width="40px" class="img-hover">
+    </nav>
+     <div class="navbar">
+    <h1 style="display: block; margin: auto; font-weight: 700; margin-top: 0%; zoom: 2; color: rgba(8, 5, 5, 0.979); -webkit-text-stroke: 3px;">Welcome to Thesstaxidi</h1>
+</div>
+<main>
+     <hr>
+       <h2>Λίγα Λόγια για εμάς.....</h2>
+       <hr>
+       <div class="card">
+         <img src="channels4_profile.jpg" alt="">
+        <p>Η ομάδα μας ταξιδέυει σε διάφορα μέρη του κόσμου, μαθαινοντας την ιστορία και τα ένθυμα τους</p>
+    </div>
+    <hr>
+     <h3 style="font-weight: 800; color: rgb(3, 5, 5); text-align: center;">Συλογή Βίντεο</h3>
+     <hr>
+    <video width="320" height="240" controls>
+        <source src="Ταξίδι στην μικρή γραφική πόλη της Βοσνίας Ερζεγοβίνης Μόσταρ.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+</video>
+      <video width="320" height="240" controls>
+<source src="Ταξίδι.... στους αγωνιστικούς χώρους.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+</video>
+<input type="file" id="videoUpload" accept="video/*">
+<button id="uploadButton">Ανέβασμα Βίντεο</button>
+<hr>
+<div class="Galery">
+   <h2>Γκαλερί Φωτογραφιών</h2>
+   <hr>
+ <img src="channels4_profile.jpg" >
+ <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" id="fileInput" name="file" accept="image/*,video/*" onchange="previewFile()">
+    <img id="previewImage" alt="Προεπισκόπηση" style="display:none;">
+    <video id="previewVideo" controls style="display:none;"></video>
+    <button type="button" onclick="uploadFile()">Ανέβασμα και Επεξεργασία</button>
+</form>
+</div>
+</main>
+<hr>
+<h2>Εγγραφή</h2>
+<form id="registrationForm">
+    <label for="username">Όνομα Χρήστη:</label>
+    <input type="text" id="username" name="username" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">Κωδικός Πρόσβασης:</label>
+    <input type="password" id="password" name="password" required>
+    <button type="button" onclick="registerUser()">Εγγραφή</button>
+</form>
+</div>
+ <hr>
+ <p style="margin-top: 0%;" >
+<span>
+  Copyright © 2024 
+  <a href="www.thesstaxidi.gr" target="_blank" class="x-el c1-2w c2-2q">www.thesstaxidi.gr</a>
+   -Με επιφύλαξη δικαιώματος-
+</span>
+</p>
+</body>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfgcGYpAAAAAAFleTybafc-5w63xmfkOCWmSI2s"></script>
+</html>
